@@ -1,0 +1,40 @@
+mongoDB:
+  count_col: count_col
+
+  mca: mca
+  statuses: mcastatuses
+#  @@contract redesign
+
+  col_business_types: businesstypes
+  col_industry_types: industrytypes
+  business_types: businesstypes
+  industry_types: industrytypes
+  mca_import_mapping: mcaimportmapping
+  mca_import_mapping_col_name: mappingname
+  mcc: mcc
+  mca_qa_data: qadata
+  mca_wftask_data: wftaskdata
+  mca_qanda: qanda
+  mca_notes: notes
+  mca_wftask: wftasks
+  mcalenders: mcalenders
+  mcadoc : mcadoc
+  mcaexposure: mcaexposure
+  audcollection: audcollection
+  rateTermMap: rateTermMap
+  permissions: permissions
+  mcaDefaults: mcadefaults
+  lendernotes: lendernotes
+  acctsummary: acctsummary
+  usermcatotals: usermcatotals
+  ownertitle: ownertitle
+
+  lenderMainDisplayFields: lenderMainDisplayFields
+  lenderMainTemplates: lenderMainTemplates
+
+  lead: lead
+  lead_notes: notes
+
+  mongologger: mongologger
+  messages: messages
+  emails: emails

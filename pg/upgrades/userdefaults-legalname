@@ -1,0 +1,7 @@
+SCHEMA='gfeny'
+
+SQL="ALTER TABLE ${SCHEMA}.userdefaults ADD COLUMN legalname character varying;"
+PGPASSWORD=${PASSWD}  psql -h ${HOST} -U ${USER} -d ${DB} -c "${SQL}"
+
+SQL="ALTER TABLE ${SCHEMA}.userdefaults ADD COLUMN ein character varying;"
+PGPASSWORD=${PASSWD}  psql -h ${HOST} -U ${USER} -d ${DB} -c "${SQL}"

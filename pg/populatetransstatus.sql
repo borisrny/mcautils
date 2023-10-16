@@ -1,0 +1,12 @@
+insert into transstatus values(DEFAULT, '');
+insert into transstatus values(DEFAULT, 'Sent');
+insert into transstatus values(DEFAULT, 'Hold');
+insert into transstatus values(DEFAULT, 'Suspended');
+insert into transstatus values(DEFAULT, 'ReScheduled');
+insert into transstatus values(DEFAULT, 'Failed');
+insert into transstatus values(DEFAULT, 'Canceled');
+insert into transstatus values(DEFAULT, 'Processed');
+insert into transstatus values(DEFAULT, 'Pending');
+insert into transstatus values(DEFAULT, 'Manual');
+insert into transstatus values(DEFAULT, 'Allocated');
+insert into transstatus values(DEFAULT, 'Prepared');
